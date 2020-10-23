@@ -1,0 +1,33 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="JA_homeKostia (3) (JA_homeKostia):war exploded">
+    <output-path>$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/JA_homeKostia/JA_homeKostia/target/JA_homeKostia-0.0.1-SNAPSHOT</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>JA_homeKostia (3) (JA_homeKostia)</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="JA_homeKostia (3) (JA_homeKostia)" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: junit:junit:4.13" />
+          <element id="library" level="project" name="Maven: org.hamcrest:hamcrest-core:1.3" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.20" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.6.1" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+          <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
+          <element id="library" level="project" name="Maven: taglibs:standard:1.1.2" />
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.8.5" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/losson-06/target/m2e-wtp/web-resources/META-INF/maven/JA_homeKostia/JA_homeKostia/target/JA_homeKostia-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="JA_homeKostia (3) (JA_homeKostia)/web/Web" />
+    </root>
+  </artifact>
+</component>

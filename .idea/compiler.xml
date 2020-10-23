@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="JA_homeKostia (3)" />
+        <module name="JA_homeKostia (3) (JA_homeKostia)" />
+        <module name="JA_homeKostia (2)" />
+        <module name="JA_homeKostia (1)" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="JA_homeKostia (1)" target="1.8" />
+      <module name="JA_homeKostia (2)" target="1.5" />
+      <module name="JA_homeKostia (3)" target="1.8" />
+      <module name="JA_homeKostia (3) (JA_homeKostia)" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

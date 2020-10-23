@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="JA_homeKostia (3) (JA_homeKostia):war">
+    <output-path>$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/JA_homeKostia/JA_homeKostia/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>JA_homeKostia (3) (JA_homeKostia)</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="JA_homeKostia-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="JA_homeKostia (3) (JA_homeKostia):war exploded" />
+    </root>
+  </artifact>
+</component>
