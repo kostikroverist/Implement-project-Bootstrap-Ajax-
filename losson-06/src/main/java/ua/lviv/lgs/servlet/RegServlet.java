@@ -21,19 +21,22 @@ public class RegServlet extends HttpServlet {
 
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String email =request.getParameter("email");
-        String firstName =request.getParameter("firstName");
-        String lastName =request.getParameter("lastName");
-        String password =request.getParameter("password");
+        String email = request.getParameter("email");
+        String firstName = request.getParameter("firstName");
+        String lastName = request.getParameter("lastName");
+        String password = request.getParameter("password");
 
-        if(!email.isEmpty() && !firstName.isEmpty()&& !lastName.isEmpty() &&!password.isEmpty()){
+        if (!email.isEmpty() && !firstName.isEmpty() && !lastName.isEmpty() && !password.isEmpty()) {
             try {
-                userServise.create(new User(email,firstName,lastName, UserRole.USER.toString(), password));
+                userServise.create(new User(email, firstName, lastName, UserRole.USER.toString(), password));
             } catch (SQLException throwables) {
                 throwables.printStackTrace();
             }
         }
-        request.getRequestDispatcher("cabinet.jsp").forward(request, response);
+        response.setContentType("type/plain");
+        response.setCharacterEncoding("UTF-8");
+        response.getWriter().write("success");
+
 
     }
 }

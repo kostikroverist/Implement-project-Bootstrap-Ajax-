@@ -13,6 +13,10 @@
     <title>Title</title>
 </head>
 <body>
-<h1>Welcome to the cabinet ${userEmail}</h1>>
+<h1>Welcome to the cabinet ${userEmail}</h1>
+
+<script>
+
+</script>
 </body>
 </html>
